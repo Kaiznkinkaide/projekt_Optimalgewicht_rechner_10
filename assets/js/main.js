@@ -5,8 +5,8 @@ let age = document.querySelector("#age").value
 let breit = document.querySelector("#breit").checked
 let schmal = document.querySelector("#schmal").checked
 let output = document.querySelector("#output")
-ergebnissSchmal = (size - 100) + (age/10) * 0.9 * 0.9
-ergebnissBreit = (size - 100) + (age/10) * 0.9 * 1.1
+ergebnissSchmal = Math.round((size - 100) + (age/10) * 0.9 * 0.9)
+ergebnissBreit = Math.round((size - 100) + (age/10) * 0.9 * 1.1)
 console.log(size, age, breit, schmal);
 
 if(schmal){
