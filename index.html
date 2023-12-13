@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -13,28 +12,21 @@
     <div class="boxframe" return false>
         <h1>Idealgewichtrechner</h1>
         <p>Körpergröße</p>
-        <input type="number" name="size" id="size">
+        <input type="number" name="size" id="size" placeholder="180">
         <p>Alter</p>
-        <input type="number" name="age" id="age">
+        <input type="number" name="age" id="age" placeholder="36">
         <p>Körperbau</p>
-        <input type="checkbox" name="breit" id="breit" class="check">
-        <label for="breit">Breit</label>
-        <input type="checkbox" name="schmal" id="schmal" class="check">
-        <label for="schmal">Schmal</label>
-        <input type="submit" value="Submit" onclick="score()">
+        <div>
+            <input type="radio" name="radio" id="breit" class="check">
+            <label for="breit">Breit</label>
+            <input type="radio" name="radio" id="schmal" class="check">
+            <label for="schmal">Schmal</label>
+            <input type="submit" value="Submit" onclick="score()">
+        </div>
         <div class="score">
             <p class="ausgabe">Dein Idealgewicht ist</p>
             <p class="ausgabe" id="output"></p>
         </div>
-
-
-
-
-
-
-
-
-
     </div>
 
 

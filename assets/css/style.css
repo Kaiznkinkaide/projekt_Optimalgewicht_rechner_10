@@ -3,3 +3,71 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../font/Roboto/Roboto-Bold.ttf");
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boxframe {
+    font-family: "Roboto";
+    color: white;
+    border-radius: 20px;
+    padding: 5vh;
+    background: linear-gradient(45deg, darkturquoise 60%, black 40%);
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+
+
+.check {
+    margin: 0.5rem;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 0.3rem;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=number] {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+input[type=submit] {
+    padding: 0.3rem 1rem;
+    margin-left: 1rem;
+    font-family: "Roboto";
+    background-color: black;
+    color: darkturquoise;
+    border-style: none;
+    border-radius: 0.3rem;
+}
+
+.score {
+    display: flex;
+    gap: 2rem;
+}
+
+#output {
+    color: black;
+}
