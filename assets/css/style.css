@@ -63,6 +63,16 @@ input[type=submit] {
     border-radius: 0.3rem;
 }
 
+input[type=submit]:hover {
+    padding: 0.3rem 1rem;
+    margin-left: 1rem;
+    font-family: "Roboto";
+    background-color: black;
+    color: darkturquoise;
+    border-style: none;
+    border-radius: 0.3rem;
+}
+
 .score {
     display: flex;
     gap: 2rem;
