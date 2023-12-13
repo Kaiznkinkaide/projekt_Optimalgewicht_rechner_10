@@ -33,6 +33,12 @@ body {
     gap: 2vh;
 }
 
+h1 {
+    letter-spacing: 0.1rem;
+    font-family: "Roboto Bold";
+    font-size: 2.5rem;
+}
+
 
 
 .check {
@@ -43,9 +49,10 @@ body {
     border-radius: 50%;
     vertical-align: middle;
     margin-top: 0.3rem;
-    border: 1px solid black;
+    border: 2px solid black;
     outline: none;
     cursor: pointer;
+
 }
 
 input[type=number] {
@@ -64,18 +71,21 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    padding: 0.3rem 1rem;
-    margin-left: 1rem;
-    font-family: "Roboto";
-    background-color: black;
+    background-color: white;
     color: darkturquoise;
-    border-style: none;
-    border-radius: 0.3rem;
 }
 
 .score {
     display: flex;
     gap: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.ausgabe {
+    font-size: 1rem;
 }
 
 #output {

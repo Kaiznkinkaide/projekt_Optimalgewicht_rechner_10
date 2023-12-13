@@ -9,12 +9,10 @@ ergebnissSchmal = (size - 100) + (age/10) * 0.9 * 0.9
 ergebnissBreit = (size - 100) + (age/10) * 0.9 * 1.1
 console.log(size, age, breit, schmal);
 
-
-
 if(schmal){
 output.innerHTML = ergebnissSchmal + " " + "kg"
 } else if(breit){
 output.innerHTML = ergebnissBreit + " " + "kg"
 } else{
-        output.innerHTML = "gib deinen Figur an"}
-    }
+        output.innerHTML = "gib deinen Figur an!"}
+}
