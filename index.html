@@ -10,7 +10,28 @@
 </head>
 
 <body>
-    <div class="boxframe">
+    <div class="boxframe" return false>
+        <h1>Idealgewichtrechner</h1>
+        <p>Körpergröße</p>
+        <input type="number" name="size" id="size">
+        <p>Alter</p>
+        <input type="number" name="age" id="age">
+        <p>Körperbau</p>
+        <input type="checkbox" name="breit" id="breit" class="check">
+        <label for="breit">Breit</label>
+        <input type="checkbox" name="schmal" id="schmal" class="check">
+        <label for="schmal">Schmal</label>
+        <input type="submit" value="Submit" onclick="score()">
+        <div class="score">
+            <p class="ausgabe">Dein Idealgewicht ist</p>
+            <p class="ausgabe" id="output"></p>
+        </div>
+
+
+
+
+
+
 
 
 
